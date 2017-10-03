@@ -9,7 +9,7 @@ Contains course notes and implementation of assignments for **40.220 The Analyti
 
 ## How to view results
 1. Run the following commands in R console to install IRkernel (required for R support in Jupyter).
-```
+```R
 install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
 devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec()
